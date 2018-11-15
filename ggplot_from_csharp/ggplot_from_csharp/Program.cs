@@ -10,6 +10,12 @@ using System.Threading.Tasks;
 
 namespace ggplot_from_csharp
 {
+    /// <summary>
+    /// Create by patricio vega
+    /// DATE: 14-11-2018
+    /// THIS ITS A SIMPLE EXAMPLE FOR MY GITHUB: github.com/patovega.
+    /// email: patricio.vega1925@gmail.com
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -39,7 +45,7 @@ namespace ggplot_from_csharp
             try
             {
                 var processStartInfo = new ProcessStartInfo();
-
+                //this its the directory of your curren R version
                 processStartInfo.WorkingDirectory = @"C:\\Program Files\\R\\R-3.5.1\\bin\\x64\\";
                 processStartInfo.FileName = "cmd.exe";
                 //the file ggplot_from_csharp.r must be exist in the WorkingDirectory
