@@ -1,6 +1,6 @@
 # ggplot_from_csharp
 
-El siguiente programa genera un archivo .CSV a partir de un set de datos falso, para luego, ejecutar R (mediante Cmd y un R-script) con el fin de crear una imagen PNG que integre un grafico de puntos creado con R y la librería GGPLOT2.
+El siguiente programa genera un archivo .CSV a partir de un set de datos falso, para luego ejecutar R (mediante Cmd y un R-script) con el fin de crear una imagen PNG que integre un grafico de puntos creado con R y la librería GGPLOT2.
 
 ## Sobre el proyecto
 
